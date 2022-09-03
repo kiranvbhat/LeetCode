@@ -1,2 +1,2 @@
-# LeetCode
-My LeetCode solutions.
+# LeetCode Solutions
+My LeetCode solutions for interview prep.

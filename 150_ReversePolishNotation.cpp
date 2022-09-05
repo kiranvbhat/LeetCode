@@ -12,6 +12,7 @@ public:
         if (op == "-") return a - b;
         if (op == "*") return a * b;
         if (op == "/") return a / b;
+        cout << "invalid operator passed to compute(): " << op << endl;
         return 999; // if invalid op provided
     }
     

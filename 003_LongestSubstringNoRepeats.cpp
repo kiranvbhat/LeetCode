@@ -21,7 +21,7 @@ public:
     
 // ------------------------------------------------------------------------------------------
     
-    // solution 2 by lightmark
+    // solution 2 (by lightmark)
     // https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1737/C%2B%2B-code-in-9-lines.
     int lengthOfLongestSubstring(string s) {
         vector<int> dict(256, -1);

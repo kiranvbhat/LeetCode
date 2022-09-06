@@ -7,7 +7,7 @@ public:
         vector<int> fewestFromAmount(amount + 1);
         fewestFromAmount[0] = 0;
         for (int amt = 1; amt < amount + 1; amt++) {
-            int minCoins = 100000;  // acts as infinity, since amount is constrained to <= 10^4
+            int minCoins = 100000;  // acts as infinity, since amount <= 10^4 and coins[i] >= 1
             for (int coin : coins) {
                 if (amt - coin >= 0) {
                     minCoins = min(minCoins, 1 + fewestFromAmount[amt - coin]);
